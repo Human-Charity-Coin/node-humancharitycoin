@@ -1,13 +1,20 @@
 {
-    "name": "node-humancharitycoin",
+    "name": "@human-charity-coin/node-humancharitycoin",
     "version": "0.3.9",
-    "description": "HumanCharityCoin client",
-    "keywords": ["humancharitycoin"],
-    "repository": "git://github.com/Human-Charity-Coin/node-humancharitycoin.git",
-    "author": "CryptoLover705 <support@cryptoloverbots.com>",
+    "description": "humancharitycoin client",
     "main": "lib/humancharitycoin.js",
-    "engines": { "node": ">= 0.4.0" },
-    "devDependencies": {
-        "nodeunit": "*"
+    "types": "lib/humancharitycoin.js",
+    "engines": {
+      "node": ">= 0.4.0"
+    },
+    "scripts": {
+      "build": "npm run build",
+      "deploy": "npm publish"
+    },
+    "author": "CryptoLover705",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Human-Charity-Coin/node-humancharitycoin.git"
     }
 }
